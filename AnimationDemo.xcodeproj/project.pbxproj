@@ -20,6 +20,8 @@
 		EEDF4EBF1DB4DADB0004067E /* EasingFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF4EBE1DB4DADB0004067E /* EasingFuncViewController.swift */; };
 		EEDF4EC11DB4DBF10004067E /* ImageViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF4EC01DB4DBF10004067E /* ImageViewAnimationViewController.swift */; };
 		EEDF4EC31DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF4EC21DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift */; };
+		EEDF4EC61DB4EB4E0004067E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EEDF4EC41DB4EB4E0004067E /* README.md */; };
+		EEDF4EC71DB4EB4E0004067E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EEDF4EC51DB4EB4E0004067E /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		EEDF4EBE1DB4DADB0004067E /* EasingFuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingFuncViewController.swift; sourceTree = "<group>"; };
 		EEDF4EC01DB4DBF10004067E /* ImageViewAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewAnimationViewController.swift; sourceTree = "<group>"; };
 		EEDF4EC21DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecursionSetToChangeImageViewController.swift; sourceTree = "<group>"; };
+		EEDF4EC41DB4EB4E0004067E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EEDF4EC51DB4EB4E0004067E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		EEDF4E771DB4DA0D0004067E = {
 			isa = PBXGroup;
 			children = (
+				EEDF4EC41DB4EB4E0004067E /* README.md */,
+				EEDF4EC51DB4EB4E0004067E /* LICENSE */,
 				EEDF4E821DB4DA0D0004067E /* AnimationDemo */,
 				EEDF4E9A1DB4DA0D0004067E /* AnimationDemoTests */,
 				EEDF4EA51DB4DA0D0004067E /* AnimationDemoUITests */,
@@ -278,6 +284,7 @@
 			files = (
 				EEDF4E911DB4DA0D0004067E /* LaunchScreen.storyboard in Resources */,
 				EEDF4E8E1DB4DA0D0004067E /* Assets.xcassets in Resources */,
+				EEDF4EC71DB4EB4E0004067E /* LICENSE in Resources */,
 				EEDF4E891DB4DA0D0004067E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +316,7 @@
 				EEDF4EC11DB4DBF10004067E /* ImageViewAnimationViewController.swift in Sources */,
 				EEDF4E8C1DB4DA0D0004067E /* AnimationDemo.xcdatamodeld in Sources */,
 				EEDF4E861DB4DA0D0004067E /* ViewController.swift in Sources */,
+				EEDF4EC61DB4EB4E0004067E /* README.md in Sources */,
 				EEDF4E841DB4DA0D0004067E /* AppDelegate.swift in Sources */,
 				EEDF4EBF1DB4DADB0004067E /* EasingFuncViewController.swift in Sources */,
 			);
