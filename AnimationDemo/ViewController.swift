@@ -46,12 +46,29 @@ class ViewController: UIViewController {
         btnRecursion.addTarget(self, action: #selector(ViewController.btnRecursionPressed), for: UIControlEvents.touchUpInside)
         self.view.addSubview(btnRecursion)
         
+        
+        let btnClock: UIButton = UIButton()
+        btnClock.frame = CGRect(x: 15, y: 240, width: 150, height: 50)
+        btnClock.setTitle("指针时钟", for: UIControlState.normal)
+        btnClock.layer.borderColor = UIColor.white.cgColor
+        btnClock.layer.borderWidth = 3
+        btnClock.layer.cornerRadius = 3
+        btnClock.layer.masksToBounds = true
+        btnClock.backgroundColor = UIColor.blue
+        btnClock.addTarget(self, action: #selector(ViewController.btnClockPressed), for: UIControlEvents.touchUpInside)
+        self.view.addSubview(btnClock)
+        
+        
+        
         self.view.backgroundColor = UIColor(colorLiteralRed: Float(0.999), green: Float(0.111), blue: Float(0.222), alpha: Float(1))
     }
     
+    func btnClockPressed(obj : AnyObject){
+        let a: ClockUseEasingFuncViewController = ClockUseEasingFuncViewController()
+        self.show(a, sender: self)
+    }
+    
     func btnPressed(obj : AnyObject){
-        print("pressed:\(obj)")
-        
         let a: EasingFuncViewController = EasingFuncViewController()
         self.show(a, sender: self)
         

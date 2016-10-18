@@ -22,6 +22,7 @@
 		EEDF4EC31DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF4EC21DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift */; };
 		EEDF4EC61DB4EB4E0004067E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EEDF4EC41DB4EB4E0004067E /* README.md */; };
 		EEDF4EC71DB4EB4E0004067E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EEDF4EC51DB4EB4E0004067E /* LICENSE */; };
+		EEDF4EC91DB5D5EF0004067E /* ClockUseEasingFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF4EC81DB5D5EF0004067E /* ClockUseEasingFuncViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		EEDF4EC21DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecursionSetToChangeImageViewController.swift; sourceTree = "<group>"; };
 		EEDF4EC41DB4EB4E0004067E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EEDF4EC51DB4EB4E0004067E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EEDF4EC81DB5D5EF0004067E /* ClockUseEasingFuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockUseEasingFuncViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				EEDF4EBE1DB4DADB0004067E /* EasingFuncViewController.swift */,
 				EEDF4EC01DB4DBF10004067E /* ImageViewAnimationViewController.swift */,
 				EEDF4EC21DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift */,
+				EEDF4EC81DB5D5EF0004067E /* ClockUseEasingFuncViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEDF4EC91DB5D5EF0004067E /* ClockUseEasingFuncViewController.swift in Sources */,
 				EEDF4EBA1DB4DA550004067E /* easing.c in Sources */,
 				EEDF4EC31DB4E46F0004067E /* RecursionSetToChangeImageViewController.swift in Sources */,
 				EEDF4EBB1DB4DA550004067E /* YXEasing.m in Sources */,
